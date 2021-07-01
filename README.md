@@ -1,74 +1,50 @@
-## Centare---Interview-Katas
+# About
+This is a little exercise we can work through together to get an idea how you code. Don't worry - we're in this together, so feel free to ask for opinions or questions, look things up, or any other regular development activities. 
 
+Don't worry about getting it all done before you run it for the first time, we know that's not how it is in the real world and we're not trying to spring any "gotchas" on you. We just want to know your train of thought and how it will be when you're working on our team!
 
+# Problem
 
-*This is the repo with solutions
+We want to build a function which, given a positive integer, returns a newline-delimited series of cyclic permutations of the numbers from 1 to the supplied number. It's probably easier to know what this means by looking at some examples:
 
-**Just erase the methods contents or modify at your leasure**
+## Examples
+Input: `0`
+Output: 
+```
+<empty string>
+```
 
+Input: `1`
+Output: 
+ ```
+  1
+ ```
 
+ Input: `2`
+ Output:
+ ```
+ 12
+ 21
+ ```
 
-# Kata 1: Cyclic Permutations
+ Input: `3`
+ Output:
+ ```
+ 123
+ 312
+ 231
+ ```
 
-         Implement the cyclic permutation method, the method should be able to output the full string of permutations
-         given a set number n
-        
-         The results MUST NOT BE HARD CODED!
-        
-         Example:
-         n = 5
-        
-         12345
-         51234
-         45123
-         34512
-         23451
-        
-         n = 4
-        
-         1234
-         4123
-         3412
-         2341
-        
-         ;) Enjoy!
-		 
-		 
-		 
-# Kata 2: DivisionsAndDivisors
+ Input: `4`
+ Output: 
+ ```
+ 1234
+ 4123
+ 3412
+ 2341
+ ```
 
-         Produce the divisors of a number n
-        
-        
-         For interviewer: The goal is to test whether the interviewee can find all divisors of a number
-         I guess this is more for junior developers and tests mainly if they usually like to write algorithms
-         that work for specific inputs or for all inputs (yes, some of the more experience interviewers don't remember this
-         although some fresh out of college devs when they can't figure it out just write an algorithm that works only for one
-         input)
-		 
-		 
+.. and so on. Don't worry about negative numbers.
 
-# Kata 3: Encryption Decryption
-
-         Interviewee: Figure out what type of encryption it is, then try to make the encryption
-         and decryption methods pass the tests!
-        
-         
-         Interviewer: Ask the interviewee if he can guess what type of encryption paradigm is this!
-         this is a caesar cipher. The goal is to test the person on basic pattern recognition. Also this is great
-         to test how fast can someone learn as pattern recognition is strongly related to learning curve.
-         The tests for this are specifically written to be extremely vague and not a very direct source for guessing what the chiper is.
-         Also this is a great test for reverse engineering, which is very important when figuring out how to use library or new tech!
-
-		
-		
-		
-# Kata 4: FizzBuzz
-
-         Figure out the fizz buzz paradigm
-        
-        
-         For interviewer: This is mainly a little breather or warm up exercise, easy enough for juniors and seniors. This is mainly
-         made for practicing peer programming and seen how a programmer does in a group when programming with others.
-         This is easy enough and probably something someone would prepare before an interview, thus you can see if the person wants
-         to do it on it's own for glory or just piggy backs!
+# Technical 
+You can output the answer to the console, or you can use the included unit tests. You can run `Program.cs` to output the values to the console, and the unit test is in the `Tests` folder. Anything else, please feel free to ask.

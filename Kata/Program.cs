@@ -6,12 +6,13 @@ namespace Kata
     {
         static void Main(string[] args)
         {
-            KataClass katas = new KataClass();
-            Console.WriteLine("working");
-            //Console.WriteLine(katas.CyclicPermutations(9));
-            //Console.WriteLine(katas.CalculateDivisors(10));
-            //Console.WriteLine(katas.PrintFizzBuzz(100));
+            KataClass kata = new KataClass();
 
+            int inputNumber = 9;
+
+            String result = kata.CyclicPermutations(inputNumber);
+
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
